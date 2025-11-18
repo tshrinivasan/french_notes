@@ -1,0 +1,120 @@
+    {{ define "main" }}
+    <article class="single">
+        <header class="single-header">
+            <h1 class="single-title">{{ .Title }}</h1>
+            <div class="post-meta">
+                {{ if .Date }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+                {{ if .Params.categories }}
+                    <span class="post-categories">
+                        {{ range .Params.categories }}
+                            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                        {{ end }}
+                    </span>
+                {{ end }}
+                {{ if .Params.tags }}
+                    <span class="post-tags">
+                        {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                        {{ end }}
+                    </span>
+                {{ end }}
+            </div>
+        </header>
+
+        {{ if .TableOfContents }}
+        <aside class="toc">
+            <h2 class="toc-title">Table of Contents</h2>
+            {{ .TableOfContents }}
+        </aside>
+        {{ end }}
+
+        <div class="content">
+            {{ .Content }}
+        </div>
+
+        <footer class="single-footer">
+            <nav class="post-nav">
+                {{ if .PrevInSection }}
+                    <a class="prev" href="{{ .PrevInSection.Permalink }}">
+                        <span class="prev-text nav-default">← Prev</span>
+                        <span class="prev-text nav-mobile">←</span>
+                        <span class="prev-title">{{ .PrevInSection.Title }}</span>
+                    </a>
+                {{ end }}
+                {{ if .NextInSection }}
+                    <a class="next" href="{{ .NextInSection.Permalink }}">
+                        <span class="next-text nav-default">Next →</span>
+                        <span class="next-text nav-mobile">→</span>
+                        <span class="next-title">{{ .NextInSection.Title }}</span>
+                    </a>
+                {{ end }}
+            </nav>
+        </footer>
+    </article>
+    {{ end }}
+
+    <style>
+        /* Basic styling for TOC and navigation */
+        .toc {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .toc-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .toc ul ul {
+            padding-left: 15px;
+        }
+        .toc a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        .post-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .post-nav a {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: #007bff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .post-nav a:hover {
+            background-color: #e0f2f7;
+        }
+        .post-nav .prev { text-align: left; }
+        .post-nav .next { text-align: right; }
+        .post-nav .nav-mobile { display: none; }
+
+        @media (max-width: 768px) {
+            .post-nav .nav-default { display: none; }
+            .post-nav .nav-mobile { display: inline; }
+            .post-nav a {
+                flex-direction: row;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    </style>
+    

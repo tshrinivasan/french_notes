@@ -1,0 +1,54 @@
+---
+title: "Day 18- family"
+date: 2025-07-22T13:00:00-04:00
+draft: false
+categories:
+  - dialogs
+tags:
+  - dialogs
+---
+
+# family
+
+| English             | French                    |
+|---------------------|---------------------------|
+| Family              | [[La famille]]            |
+| Father              | [[Le père]]               |
+| Mother              | [[La mère]]               |
+| Parents             | [[Les parents]]           |
+| Son                 | [[Le fils]]               |
+| Daughter            | [[La fille]]              |
+| Child               | [[L’enfant]]              |
+| Children            | [[Les enfants]]           |
+| Brother             | [[Le frère]]              |
+| Sister              | [[La sœur]]               |
+| Older brother       | [[Le frère aîné]]         |
+| Younger brother     | [[Le frère cadet]]        |
+| Older sister        | [[La sœur aînée]]         |
+| Younger sister      | [[La sœur cadette]]       |
+| Grandfather         | [[Le grand-père]]         |
+| Grandmother         | [[La grand-mère]]         |
+| Grandparents        | [[Les grands-parents]]    |
+| Grandson            | [[Le petit-fils]]         |
+| Granddaughter       | [[La petite-fille]]       |
+| Husband             | [[Le mari]]               |
+| Wife                | [[La femme]] / [[L’épouse]]|
+| Uncle               | [[L’oncle]]               |
+| Aunt                | [[La tante]]              |
+| Nephew              | [[Le neveu]]              |
+| Niece               | [[La nièce]]              |
+| Cousin (male)       | [[Le cousin]]             |
+| Cousin (female)     | [[La cousine]]            |
+| Father-in-law       | [[Le beau-père]]          |
+| Mother-in-law       | [[La belle-mère]]         |
+| Son-in-law          | [[Le gendre]]             |
+| Daughter-in-law     | [[La belle-fille]]        |
+| Brother-in-law      | [[Le beau-frère]]         |
+| Sister-in-law       | [[La belle-sœur]]         |
+| Stepfather          | [[Le beau-père]]          |
+| Stepmother          | [[La belle-mère]]         |
+| Stepbrother         | [[Le demi-frère]]         |
+| Stepsister          | [[La demi-sœur]]          |
+| Partner / Spouse    | [[Le conjoint]] / [[La conjointe]] |
+| Twin brother        | [[Le frère jumeau]]       |
+| Twin sister         | [[La sœur jumelle]]       |

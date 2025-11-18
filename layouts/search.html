@@ -1,0 +1,55 @@
+{{ define "main" }}
+<article class="single">
+    <header class="single-header">
+        <h1 class="single-title">Search</h1>
+    </header>
+
+    <div class="content">
+        <div style="max-width: 500px; margin: 0 auto;">
+            <input type="text" id="search-input" placeholder="Type to search..." autofocus class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+        </div>
+        <br> <!-- Line break added here -->
+        <div id="search-results" class="mt-4"></div>
+    </div>
+</article>
+
+<style>
+    /* Basic styling for search input and results */
+    #search-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    #search-results .search-result-item {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #eee;
+    }
+    #search-results .search-result-item:last-child {
+        border-bottom: none;
+    }
+    #search-results .search-result-item h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+    }
+    #search-results .search-result-item h3 a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    #search-results .search-result-item h3 a:hover {
+        text-decoration: underline;
+    }
+    #search-results .search-result-item p {
+        font-size: 0.9em;
+        color: #555;
+    }
+    .no-results {
+        color: #888;
+        font-style: italic;
+    }
+</style>
+{{ end }}
+

@@ -1,0 +1,15 @@
+    [
+    {{ range $index, $page := where .Site.RegularPages "Type" "in" (slice "posts") }}
+      {{- if and (ne $page.Kind "404") (ne $page.Kind "taxonomy") (ne $page.Kind "term") -}}
+      {{- if $index -}},{{- end }}
+      {
+        "uri": "{{ $page.Permalink }}",
+        "title": {{ $page.Title | jsonify }},
+        "tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }},{{ end }}"{{ $tag }}"{{ end }}],
+        "categories": [{{ range $cindex, $category := $page.Params.categories }}{{ if $cindex }},{{ end }}"{{ $category }}"{{ end }}],
+        "content": {{ $page.Plain | jsonify }}
+      }
+      {{- end -}}
+    {{ end }}
+    ]
+    

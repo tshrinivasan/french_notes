@@ -1,0 +1,26 @@
+    <header>
+        <div class="container">
+            <div class="menu-header">
+                <a href="{{ .Site.BaseURL }}" class="logo">
+                    {{ .Site.Title }}
+                </a>
+                <div class="menu-trigger">
+                    <span class="menu-trigger-icon"></span>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__inner">
+                        {{ range sort .Site.Menus.main "Weight" }}
+                            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ if .Site.Params.enableThemeToggle }}
+                    <div class="menu-toggle">
+                        <input id="theme-toggle" type="checkbox" />
+                        <label for="theme-toggle"></label>
+                    </div>
+                    {{ end }}
+                </nav>
+            </div>
+        </div>
+    </header>
+    

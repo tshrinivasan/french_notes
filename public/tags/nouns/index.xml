@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nouns on My French Learning Notes</title>
+    <link>https://french.kaniyam.ca/tags/nouns/</link>
+    <description>Recent content in Nouns on My French Learning Notes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Oct 2023 10:00:00 -0400</lastBuildDate>
+    <atom:link href="https://french.kaniyam.ca/tags/nouns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fourth French Lesson: Common Nouns</title>
+      <link>https://french.kaniyam.ca/posts-old/4/</link>
+      <pubDate>Mon, 30 Oct 2023 10:00:00 -0400</pubDate>
+      <guid>https://french.kaniyam.ca/posts-old/4/</guid>
+      <description>&lt;p&gt;Here are some common nouns for everyday objects.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;A book&amp;rdquo;: &lt;span class=&#34;french-word-container&#34;&gt;&lt;span class=&#34;french-word&#34;&gt;&amp;ldquo;un livre&amp;rdquo;&lt;/span&gt;&lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;un-livre&#39;)&#34;&gt;&lt;/i&gt;&lt;audio id=&#34;audio-un-livre&#34; src=&#34;https://french.kaniyam.ca/audio/un-livre.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&lt;/span&gt;.&#xA;&amp;ldquo;A table&amp;rdquo;: &#xA;&lt;span class=&#34;french-word-container&#34;&gt;&#xA;    &lt;span class=&#34;french-word&#34;&gt;une table&lt;/span&gt;&#xA;    &lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;une-table&#39;)&#34;&gt;&lt;/i&gt;&#xA;    &lt;audio id=&#34;audio-une-table&#34; src=&#34;https://french.kaniyam.ca/audio/une-table.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&#xA;&lt;/span&gt;&#xA;&#xA;.&#xA;&amp;ldquo;A chair&amp;rdquo;: &#xA;&lt;span class=&#34;french-word-container&#34;&gt;&#xA;    &lt;span class=&#34;french-word&#34;&gt;une chaise&lt;/span&gt;&#xA;    &lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;une-chaise&#39;)&#34;&gt;&lt;/i&gt;&#xA;    &lt;audio id=&#34;audio-une-chaise&#34; src=&#34;https://french.kaniyam.ca/audio/une-chaise.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&#xA;&lt;/span&gt;&#xA;&#xA;.&#xA;&amp;ldquo;A house&amp;rdquo;: &#xA;&lt;span class=&#34;french-word-container&#34;&gt;&#xA;    &lt;span class=&#34;french-word&#34;&gt;une maison&lt;/span&gt;&#xA;    &lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;une-maison&#39;)&#34;&gt;&lt;/i&gt;&#xA;    &lt;audio id=&#34;audio-une-maison&#34; src=&#34;https://french.kaniyam.ca/audio/une-maison.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&#xA;&lt;/span&gt;&#xA;&#xA;.&#xA;&amp;ldquo;A car&amp;rdquo;: &#xA;&lt;span class=&#34;french-word-container&#34;&gt;&#xA;    &lt;span class=&#34;french-word&#34;&gt;une voiture&lt;/span&gt;&#xA;    &lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;une-voiture&#39;)&#34;&gt;&lt;/i&gt;&#xA;    &lt;audio id=&#34;audio-une-voiture&#34; src=&#34;https://french.kaniyam.ca/audio/une-voiture.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&#xA;&lt;/span&gt;&#xA;&#xA;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+    baseURL = "https://french.kaniyam.ca/"
+    languageCode = "en-us"
+    title = "My French Learning Notes"
+    theme = "hello-friend-ng"
+
+    [params]
+      homeSubtitle = "My daily French learning journey"
+
+    [markup]
+      [markup.goldmark]
+        [markup.goldmark.renderer]
+          unsafe = true # Allows raw HTML in markdown, needed for shortcodes like <style>
+
+    # Taxonomies for Categories and Tags
+    [taxonomies]
+      category = "categories"
+      tag = "tags"
+
+    # Main menu configuration (weights for order)
+    [menu]
+      [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[menu.main]]
+        identifier = "posts"
+        name = "Lessons"
+        url = "/posts/"
+        weight = 2
+      [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = 3
+      [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 4
+      [[menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/search/"
+        weight = 5
+
+    # Add JSON output format for search index
+    [outputs]
+      home = ["HTML", "RSS", "JSON"] # Add JSON to home page outputs
+
+    [outputFormats.JSON]
+      mediaType = "application/json"
+      baseName = "search" # This will create search.json
+    

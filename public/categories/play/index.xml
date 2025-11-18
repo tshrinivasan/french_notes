@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Play on My French Learning Notes</title>
+    <link>https://french.kaniyam.ca/categories/play/</link>
+    <description>Recent content in Play on My French Learning Notes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jul 2025 14:00:00 -0400</lastBuildDate>
+    <atom:link href="https://french.kaniyam.ca/categories/play/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 20 - Play - Music, Sports</title>
+      <link>https://french.kaniyam.ca/posts/day-20-play/</link>
+      <pubDate>Thu, 24 Jul 2025 14:00:00 -0400</pubDate>
+      <guid>https://french.kaniyam.ca/posts/day-20-play/</guid>
+      <description>&lt;h1 id=&#34;jouer--pour-les-instruments-&#34;&gt;Jouer ( pour les instruments )&lt;/h1&gt;&#xA;&lt;p&gt;Par example :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;span class=&#34;french-word-container&#34;&gt;&lt;span class=&#34;french-word&#34;&gt;je joue du piano&lt;/span&gt;&lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;je-joue-du-piano&#39;)&#34;&gt;&lt;/i&gt;&lt;audio id=&#34;audio-je-joue-du-piano&#34; src=&#34;https://french.kaniyam.ca/audio/je-joue-du-piano.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&lt;/span&gt; ( jouer + du )&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;span class=&#34;french-word-container&#34;&gt;&lt;span class=&#34;french-word&#34;&gt;il joue de la guitare&lt;/span&gt;&lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;il-joue-de-la-guitare&#39;)&#34;&gt;&lt;/i&gt;&lt;audio id=&#34;audio-il-joue-de-la-guitare&#34; src=&#34;https://french.kaniyam.ca/audio/il-joue-de-la-guitare.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&lt;/span&gt; ( jouer + de la )&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;span class=&#34;french-word-container&#34;&gt;&lt;span class=&#34;french-word&#34;&gt;les enfants jounet de l&amp;rsquo;harmonica&lt;/span&gt;&lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;les-enfants-jounet-de-lharmonica&#39;)&#34;&gt;&lt;/i&gt;&lt;audio id=&#34;audio-les-enfants-jounet-de-lharmonica&#34; src=&#34;https://french.kaniyam.ca/audio/les-enfants-jounet-de-lharmonica.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&lt;/span&gt; ( jouer + de l&amp;rsquo; )&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;span class=&#34;french-word-container&#34;&gt;&lt;span class=&#34;french-word&#34;&gt;mes amis jounet des marcas&lt;/span&gt;&lt;i class=&#34;fas fa-volume-up audio-icon&#34; onclick=&#34;playFrenchAudio(&#39;mes-amis-jounet-des-marcas&#39;)&#34;&gt;&lt;/i&gt;&lt;audio id=&#34;audio-mes-amis-jounet-des-marcas&#34; src=&#34;https://french.kaniyam.ca/audio/mes-amis-jounet-des-marcas.mp3&#34; preload=&#34;auto&#34;&gt;&lt;/audio&gt;&lt;/span&gt; ( jouer + des )&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

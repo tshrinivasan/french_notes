@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
+  <head>
+    {{ partial "head.html" . }}
+    {{ partial "head-css.html" . }}
+    {{ partial "head-js.html" . }}
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Your custom JavaScript for audio playback -->
+    <script src="/js/audio_player.js" defer></script>
+  </head>
+  <body class="doks-theme-{{ .Site.Params.doks.colorMode | default "auto" }}">
+    {{ partial "skip-links.html" . }}
+    {{ partial "navbar.html" . }}
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        {{ partial "sidebar.html" . }}
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+          {{ block "main" . }}
+          {{ end }}
+        </main>
+        {{ partial "toc.html" . }}
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>
+

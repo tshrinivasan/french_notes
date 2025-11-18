@@ -1,0 +1,43 @@
+body {
+color: #FFFFFF !important;
+}
+
+/* Styling for the French word and icon, extracted from shortcode */
+.french-word-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Space between word and icon */
+    font-family: "Inter", sans-serif; /* Using Inter font */
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 4px 8px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.french-word-container:hover {
+    background-color: #e0f2f7; /* Slightly darker on hover */
+}
+
+.french-word {
+    font-weight: bold;
+    color: #333;
+}
+
+.audio-icon {
+    cursor: pointer;
+    color: #007bff; /* Blue color for the icon */
+    font-size: 1.1em;
+    transition: color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.audio-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Hide the default audio player controls */
+audio {
+    display: none;
+}
+
